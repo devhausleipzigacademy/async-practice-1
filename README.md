@@ -47,7 +47,7 @@ Don't Google!!!
 #### APIs
 
 - [Chuck Norris API](https://api.chucknorris.io/)
-- [Country API](https://restcountries.eu/)
+- [Country API](https://restcountries.com/)
 - [Advice API](https://api.adviceslip.com/)
 - [NASA API](https://api.nasa.gov/index.html)
 - [GitHub API](https://developer.github.com/v3/)
