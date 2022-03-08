@@ -3,7 +3,6 @@
 ### Overview
 
 - API: REST
-- AJAX / XHR Request Timeline
 - HTTP Request Components
   - Method
   - Base URL
@@ -13,12 +12,14 @@
   - Body
   - Response Code
   - Response Body
+- Axios
+- Promises
 
 
 ### Insomnia
 
 Insomnia is a desktop app, that you can use to explore and debug an API
-Install insomnia from <https://insomnia.rest/>
+Install insomnia from [Insomnia](https://insomnia.rest/)
 
 Use Insomnia and the linked API's and their documentation to complete these tasks.
 Don't Google!!!
