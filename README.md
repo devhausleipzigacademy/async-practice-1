@@ -6,7 +6,6 @@
   - Base URL
   - Path
   - Query Parameters
-- API: REST
 - HTTP Request Methods
 - HTTP Request Components
   - Method
@@ -14,6 +13,8 @@
   - Body
   - Response Code
   - Response Body
+- Endpoints
+- API: REST
 - Axios
 - Thread of Execution, Blocking / Non-blocking
 - Event Loop Visualization
