@@ -15,7 +15,9 @@
   - Response Code
   - Response Body
 - Axios
+- Event Loop Visualization
 - Promises
+- Promise Visualizer
 
 ### URLs
 
@@ -54,7 +56,7 @@ Don't Google!!!
 ### Axios
 
 Axios is a javascript library, which lets you trigger HTTP Requests.
-You can use it to call an API from Javascript
+You can use it to call an API from Javascript.
 
 [Axios](https://github.com/axios/axios)
 
@@ -97,6 +99,11 @@ axios.get("https://api.chucknorris.io/jokes/random", {
 ```
 
 There's also `axios.post`, `axios.delete`, `axios.put` and `axios.patch`
+
+
+### Event Loop Visualization
+
+(JavaScript Visualizer)[https://www.jsv9000.app/]
 
 
 ### Promises
@@ -164,3 +171,6 @@ promise2.catch((error) => {
 ```
 
 
+### Promise Visualizer
+
+(Promise Visualizer)[https://bevacqua.github.io/promisees/]
