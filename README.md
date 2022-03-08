@@ -103,7 +103,7 @@ There's also `axios.post`, `axios.delete`, `axios.put` and `axios.patch`
 
 ### Event Loop Visualization
 
-(JavaScript Visualizer)[https://www.jsv9000.app/]
+[JavaScript Visualizer](https://www.jsv9000.app/)
 
 
 ### Promises
@@ -173,4 +173,4 @@ promise2.catch((error) => {
 
 ### Promise Visualizer
 
-(Promise Visualizer)[https://bevacqua.github.io/promisees/]
+[Promise Visualizer](https://bevacqua.github.io/promisees/)
