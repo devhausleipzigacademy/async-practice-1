@@ -15,6 +15,7 @@
   - Response Code
   - Response Body
 - Axios
+- Thread of Execution, Blocking / Non-blocking
 - Event Loop Visualization
 - Promises
 - Promise Visualizer
@@ -99,6 +100,9 @@ axios.get("https://api.chucknorris.io/jokes/random", {
 ```
 
 There's also `axios.post`, `axios.delete`, `axios.put` and `axios.patch`
+
+
+### Thread of Execution, Blocking / Non-blocking
 
 
 ### Event Loop Visualization
