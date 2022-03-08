@@ -44,7 +44,7 @@ Don't Google!!!
 3. How many countries state US Dollar as one of their official national currencies.
 4. Get some random advice
 5. Download the astronomy picture of the day
-6. How many search results do you get on GitHub if you search for vue
+6. How many search results do you get for repositories on GitHub if you search for "React"
 
 #### APIs
 
