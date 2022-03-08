@@ -2,18 +2,29 @@
 
 ### Overview
 
-- API: REST
-- HTTP Request Components
-  - Method
+- Parts of URL
   - Base URL
   - Path
   - Query Parameters
+- API: REST
+- HTTP Request Methods
+- HTTP Request Components
+  - Method
   - Headers
   - Body
   - Response Code
   - Response Body
 - Axios
 - Promises
+
+### URLs
+
+[What is a URL](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_URL)
+
+
+### HTTP Request Methods
+
+[HTTP Methods](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods)
 
 
 ### Insomnia
