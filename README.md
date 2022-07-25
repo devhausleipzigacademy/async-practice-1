@@ -33,7 +33,7 @@
 
 ### HTTP Client
 
-Install the VSCode extension HTTP Client. Docs: https://marketplace.visualstudio.com/items?itemName=mkloubert.vscode-http-client
+Install the VSCode extension REST Client. Docs: [https://marketplace.visualstudio.com/items?itemName=mkloubert.vscode-http-client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
 
 1. Find a Chuck Norris Joke about linux.
 2. Alofi is the capital of which country.
