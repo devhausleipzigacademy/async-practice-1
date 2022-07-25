@@ -33,11 +33,7 @@
 
 ### Insomnia
 
-Insomnia is a desktop app, that you can use to explore and debug an API
-Install insomnia from [Insomnia](https://insomnia.rest/)
-
-Use Insomnia and the linked API's and their documentation to complete these tasks.
-Don't Google!!!
+Install the VSCode extension HTTP Client. Docs: https://marketplace.visualstudio.com/items?itemName=mkloubert.vscode-http-client
 
 1. Find a Chuck Norris Joke about linux.
 2. Alofi is the capital of which country.
