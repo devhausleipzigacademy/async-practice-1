@@ -31,7 +31,7 @@
 [HTTP Methods](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods)
 
 
-### Insomnia
+### HTTP Client
 
 Install the VSCode extension HTTP Client. Docs: https://marketplace.visualstudio.com/items?itemName=mkloubert.vscode-http-client
 
