@@ -39,11 +39,11 @@
 Install the VSCode extension REST Client. Docs: [https://marketplace.visualstudio.com/items?itemName=mkloubert.vscode-http-client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
 
 1. Find a Chuck Norris Joke about "dev".
-2. Alofi is the capital of which country.
-3. How many countries state US Dollar as one of their official national currencies.
-4. Get some random advice
-5. Download the astronomy picture of the day
-6. How many search results do you get for repositories on GitHub if you search for "React"
+2. Alofi is the capital of which country?
+3. How many countries state US Dollar as one of their official national currencies?
+4. Get some random advice.
+5. Download the astronomy picture of the day.
+6. How many search results do you get for repositories on GitHub if you search for "React"?
 
 #### APIs
 
