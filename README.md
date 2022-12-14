@@ -2,34 +2,37 @@
 
 ### Overview
 
-- Parts of URL
-  - Base URL
-  - Path
-  - Query Parameters
-- HTTP Request Methods
-- HTTP Request Components
-  - Method
-  - Headers
-  - Body
-  - Response Code
-  - Response Body
-- Endpoints
-- API: REST
-- Axios
-- Thread of Execution, Blocking / Non-blocking
-- Event Loop Visualization
-- Promises
-- Promise Visualizer
+-   Parts of URL
+    -   Base URL
+    -   Path
+    -   Query Parameters
+-   HTTP Request Methods
+    -   "GET"
+    -   "POST" (create new)
+    -   "DELETE"
+    -   "PUT" (replace)
+    -   "PATCH" (update)
+-   HTTP Request/Response Components
+    -   Method
+    -   Headers
+    -   Body
+    -   Response Code
+    -   Response Body
+-   Endpoints
+-   API: REST
+-   Axios
+-   Thread of Execution, Blocking / Non-blocking
+-   Event Loop Visualization
+-   Promises
+-   Promise Visualizer
 
 ### URLs
 
 [What is a URL](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_URL)
 
-
 ### HTTP Request Methods
 
 [HTTP Methods](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods)
-
 
 ### HTTP Client
 
@@ -44,12 +47,11 @@ Install the VSCode extension REST Client. Docs: [https://marketplace.visualstudi
 
 #### APIs
 
-- [Chuck Norris API](https://api.chucknorris.io/)
-- [Country API](https://restcountries.com/)
-- [Advice API](https://api.adviceslip.com/)
-- [NASA API](https://api.nasa.gov/index.html)
-- [GitHub API](https://developer.github.com/v3/)
-
+-   [Chuck Norris API](https://api.chucknorris.io/)
+-   [Country API](https://restcountries.com/)
+-   [Advice API](https://api.adviceslip.com/)
+-   [NASA API](https://api.nasa.gov/index.html)
+-   [GitHub API](https://developer.github.com/v3/)
 
 ### Axios
 
@@ -57,7 +59,6 @@ Axios is a javascript library, which lets you trigger HTTP Requests.
 You can use it to call an API from Javascript.
 
 [Axios](https://github.com/axios/axios)
-
 
 #### Include through CDN
 
@@ -69,43 +70,40 @@ You can use it to call an API from Javascript.
 
 ```js
 axios({
-  method: "get",
-  url: "https://api.chucknorris.io/jokes/random",
-  /* more options, like params, data, headers, timeout etc...*/
+	method: "get",
+	url: "https://api.chucknorris.io/jokes/random"
+	/* more options, like params, data, headers, timeout etc...*/
 })
-  .then((response) => {
-    // This code will run as soon as the request is resolved
-    const status = response.status; // The status code, most often 200
-    const data = response.data; // The actual response data
-    console.log("Status Code: ", status);
-    console.log("Here's a Joke for you: ", data.value);
-  })
-  .catch((error) => {
-    const response = error.response; // The response from the server
-    console.log("Status Code: ", response.status);
-    // This code will run if something went wrong
-    console.log("Something went wrong!", error);
-  });
+	.then((response) => {
+		// This code will run as soon as the request is resolved
+		const status = response.status; // The status code, most often 200
+		const data = response.data; // The actual response data
+		console.log("Status Code: ", status);
+		console.log("Here's a Joke for you: ", data.value);
+	})
+	.catch((error) => {
+		const response = error.response; // The response from the server
+		console.log("Status Code: ", response.status);
+		// This code will run if something went wrong
+		console.log("Something went wrong!", error);
+	});
 ```
 
 Instead of specifying the http method in the options, there are also methods defined on the axios object itself. For example for a get request this would look like this.
 
 ```js
 axios.get("https://api.chucknorris.io/jokes/random", {
-  /* options */
+	/* options */
 });
 ```
 
 There's also `axios.post`, `axios.delete`, `axios.put` and `axios.patch`
 
-
 ### Thread of Execution, Blocking / Non-blocking
-
 
 ### Event Loop Visualization
 
 [JavaScript Visualizer](https://www.jsv9000.app/)
-
 
 ### Promises
 
@@ -118,7 +116,7 @@ We passed a function, with the code we wanted to be run at a later point as an *
 
 ```js
 setTimeout(() => {
-  console.log("Log this after 3 seconds");
+	console.log("Log this after 3 seconds");
 }, 3000);
 ```
 
@@ -128,11 +126,11 @@ Here's an example from the node file system library
 
 ```js
 fs.writeFile("test.txt", "This is the content of the file", (error) => {
-  if (error) {
-    console.log("Something went wrong while writing the file...", error);
-  } else {
-    console.log("Success!!!");
-  }
+	if (error) {
+		console.log("Something went wrong while writing the file...", error);
+	} else {
+		console.log("Success!!!");
+	}
 });
 ```
 
@@ -162,15 +160,14 @@ const promise1 = axios.get("https://api.chucknorris.io/jokes/random");
 
 // Install a then handler to be run if the server returns a response.
 const promise2 = promise1.then((response) => {
-  console.log("Success", response);
+	console.log("Success", response);
 });
 
 // Install a catch handler to be run if there is an error in either the original request or the then handler.
 promise2.catch((error) => {
-    console.log("Error", error);
+	console.log("Error", error);
 });
 ```
-
 
 ### Promise Visualizer
 
